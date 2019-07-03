@@ -1,170 +1,176 @@
 .appDiv {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    /* dsfgkf */
-    background: linear-gradient(-135deg, #c850c0, #4158d0);
-    /* background:whitesmoke; */
-    box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  /* dsfgkf */
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  /* background:whitesmoke; */
+  box-sizing: border-box;
 }
-.errorMessage{
-    width: 960px;
-    border-radius: 10px;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 15px;
-color:red;
+.errorMessage {
+  width: 960px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+  color: red;
 }
-.SignIn_SignUpDiv{
-    width: 960px;
-    background:white;
-    border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 100px 130px 33px 95px;  
+.huihu {
+  flex-wrap: wrap;
+  align-items: center;
+}
+.SignIn_SignUpDiv {
+  width: 960px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 130px 33px 95px;
 }
 .Image {
-    padding-top: center;
-    will-change: transform;
-    transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+  padding-top: center;
+  will-change: transform;
+  transform: perspective(300px) rotateX(0deg) rotateY(0deg);
 }
-.formClass{
-    display: block;
-    margin-top: 100px;
-    width: 290px;
+.formClass {
+  display: block;
+  margin-top: 100px;
+  width: 290px;
 }
 .title {
-        font-family: Poppins-Bold;
-        font-size: 24px;
-        color: #333333;
-        line-height: 1.2;
-        text-align: center;
-        width: 100%;
-        display: block;
-        padding-bottom: 14px;
-    }
-.inputDiv{
-    position: relative;
-    width: 100%;
-    z-index: 1;
-    margin-bottom: 10px;
-    }
-.Input  {
-    font-family: Poppins-Medium;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #666666;
-    display: block;
-    width: 100%;
-    background: #e6e6e6;
-    height: 50px;
-    border-radius: 25px;
-    padding: 0 30px 0 68px;
+  font-family: Poppins-Bold;
+  font-size: 24px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 14px;
 }
-.Input-input100{
-    display: block;
-    position: absolute;
-    border-radius: 25px;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0px 0px 0px 0px;
-    color: rgba(87,184,70, 0.8);
+.inputDiv {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 10px;
 }
-.symbol-input100{
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    border-radius: 25px;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding-left: 35px;
-    pointer-events: none;
-    color: #666666;
-    transition: all 0.4s;
+.Input {
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px 0 68px;
 }
-.btnDiv{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 20px;
+.Input-input100 {
+  display: block;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px;
+  color: rgba(87, 184, 70, 0.8);
 }
-.Inputbtn{
-    font-family: Montserrat-Bold;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #fff;
-    text-transform: uppercase;
-    width: 100%;
-    height: 50px;
-    border-radius: 25px;
-    background: #57b846;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 25px;
-    transition: all 0.4s;
+.symbol-input100 {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-left: 35px;
+  pointer-events: none;
+  color: #666666;
+  transition: all 0.4s;
+}
+.btnDiv {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+.Inputbtn {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background: #57b846;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  transition: all 0.4s;
 }
 
 div {
-    display: block;
+  display: block;
 }
-*, ::after, ::before {
-    box-sizing: inherit;
+*,
+::after,
+::before {
+  box-sizing: inherit;
 }
-input{
-    outline: none;
-    border: none;
-    -webkit-appearance: textfield;
-    cursor: text;
+input {
+  outline: none;
+  border: none;
+  -webkit-appearance: textfield;
+  cursor: text;
 }
-button, input {
-    outline: none;
-    touch-action: manipulation;
-    overflow: visible;
+button,
+input {
+  outline: none;
+  touch-action: manipulation;
+  overflow: visible;
 }
 .dropdown .dropbtn {
-    font-size: 19px;  
-    border: none;
-    outline: none;
-    color: white;
-    background-color: inherit;
-  }
-  
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color:whitesmoke;
-    min-width: 120px;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    padding: 12px 16px;   
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color:wheat;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .link{
-      text-align: center
-  }
+  font-size: 19px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 120px;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: wheat;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.link {
+  text-align: center;
+}
